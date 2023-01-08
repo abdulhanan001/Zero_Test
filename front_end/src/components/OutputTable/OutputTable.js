@@ -11,7 +11,7 @@ function OutputTable({ data }) {
 
   if (isError) {
     return <div style={{
-            marginBottom: '16px', 
+            marginBottom: '17px', 
             padding: '12px', 
             border: '1px solid red', 
             borderRadius: '5px',
