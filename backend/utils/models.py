@@ -26,6 +26,7 @@ def create_llm_data(prompt: str, response: str) -> LlmData:
 
     Returns:
     - LlmData instance
+
     """
     db=SessionLocal()
     llm_data_instance = LlmData(prompt=prompt, response=response)
